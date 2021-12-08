@@ -1,11 +1,11 @@
 import React from 'react';
 
-const videoItems = (props) => {
+const VideoItems = (props) => {
   return (  
-  <ul>
-    <li></li>
-  </ul>
+    <h1>
+      {props.video.snippet.title}
+    </h1>
   )  
 }
 
-export default videoItems;
+export default VideoItems;
