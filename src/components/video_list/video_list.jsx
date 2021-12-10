@@ -1,13 +1,10 @@
 import React from 'react';
-import VideoItems from '../video_item/videoItems';
+import VideoItems from '../video_item/video_item';
+import styles from './video_list.module.css';
 
 const Video_list = (props) => {
-  console.log(props.videos)
-  //console.log(props.videos.map(video=>console.log(video)))
-//console.log(props.videos.items.map(video=>1))
-//console.log(props.videos.items.map((video)=>1)
   return (
-  <ul>
+  <ul className={styles.videos}>
       {props.videos.map(video => (
         <VideoItems key={video.id} video={video}/>
       ))}
