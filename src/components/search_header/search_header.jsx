@@ -1,7 +1,7 @@
 import React , { useRef } from 'react';
 import styles from './search_header.module.css';
 
-const Nav_search = ( {onSearch} ) => {
+const SearchHeader = ( {onSearch} ) => {
   const inputRef = useRef();
   const resetRef = useRef();
   const onSubmit = (e) => {
@@ -14,20 +14,20 @@ const Nav_search = ( {onSearch} ) => {
   return(
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img className={styles.img} src='images/logo.png'/>
+        <img className={styles.img} src='images/logo.png' alt='logo'/>
         <h1 className={styles.title}>Youtube</h1>
       </div>
       <form className={styles.form} onSubmit={onSubmit} ref={resetRef}>
         <input className={styles.input} type="text" placeholder='search-keyword' ref={inputRef}></input>
         <button className={styles.button}>
-          <img className={styles.buttonImg} src='images/search.png'/>
+          <img className={styles.buttonImg} src='images/search.png' alt='search'/>
         </button>
       </form>
     </header>
   );
 
 }
-export default Nav_search;
+export default SearchHeader;
 
 //삽질기2..onSubmit 을 안쓰고 onClick에 하니 value를 읽을 수 없다고 떳다.. e.target.value로 input을 클릭하니 값이 왔다.
 //ref값을 받기위해서는 onSubmit을 사용했어야 했다.
