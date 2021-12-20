@@ -1,9 +1,11 @@
 # Youtube mini project
 
 
-** -Showing hot clip 25 list on root page **
-** -Search keyword + enter/search button = change hot clip list to search results clip **
-** -Click Play button will start the clip **
+- [x] Showing hot clip 25 list on root page 
+- [x] Search keyword + enter/search button = change hot clip list to search results clip 
+- [x] Click Play button will start the clip 
+
+---
 
 ### **💡 What i used**
 
@@ -12,7 +14,6 @@
 - fetch, axios API
 - Dependency Injection
 - Post css
-- 
 
 ---
 
