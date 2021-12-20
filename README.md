@@ -1,13 +1,18 @@
 # Youtube mini project
 
-**React hook, youtube api, fetch, axios, DI**
+
+** -Showing hot clip 25 list on root page **
+** -Search keyword + enter/search button = change hot clip list to search results clip **
+** -Click Play button will start the clip **
 
 ### **💡 What i used**
 
 - React hook
-- Youtube search api
+- Youtube search API
+- fetch, axios API
 - Dependency Injection
 - Post css
+- 
 
 ---
 
