@@ -1,4 +1,4 @@
-# Youtube mini project
+# simple Youtube mini project
 
 
 - [x] Showing hot clip 25 list on root page 
