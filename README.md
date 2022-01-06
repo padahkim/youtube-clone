@@ -24,7 +24,7 @@
 ---
 
 
-### **📊Folders**
+### **📊Structure**
 
 ![화면_캡처_2021-12-20_100459](https://user-images.githubusercontent.com/91414657/146698434-0b2016f7-6c33-4d78-bd7a-b866a9829e06.jpg)
 
