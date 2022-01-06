@@ -12,7 +12,6 @@
 - React hook
 - Youtube search API
 - fetch, axios API
-- Dependency Injection
 - Post css
 
 ---
